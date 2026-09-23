@@ -6,6 +6,8 @@
 export interface TaskListItemElement extends HTMLLIElement {
   taskId: number;
   userId: number;
+  page: number;
+  taskName: string;
 }
 
 export interface UserListItemElement extends HTMLLIElement {
